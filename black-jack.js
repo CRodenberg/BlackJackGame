@@ -4,8 +4,8 @@
 //Programmer: Cole Rodenberg Date: 5/11/2015
 //Description: Creates a structure named Card with two elements: suit and value
 function Card(value, suit) {
-    this.suit = suit;
     this.value = value;
+    this.suit = suit;
 }
 
 //Programmer: Cole Rodenberg Date: 5/11/2015
