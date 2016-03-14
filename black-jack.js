@@ -344,10 +344,10 @@ var splashScreen = function(start) {
 var i = 1
 
 //Programmer: Cole Rodenberg Date: 5/11/2015
-//Description: Main
-do
+//Description: Main 
+var newGame = prompt("Press 1: New game 2: Quit");
+while(newGame === "1")
 {
-    var newGame = prompt("Press 1: New game 2: Quit");
     if(newGame === "1")
     {
         var betInput = prompt("How much would you like to bet?");
@@ -371,7 +371,7 @@ do
     {
         document.getElementById("Main").innerHTML = "";
     }   
-}while(newGame === "1");
+};
 
 document.write("Thanks for Playing!");
 document.write("<br><br>You finished with $" + money);
