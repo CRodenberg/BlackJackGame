@@ -69,7 +69,9 @@ Card.prototype.toString = function() {
     }
     return s;
 }
-var money;
+
+//Variable declarations
+var money = 100;
 var win;
 var moneyDisplay;
 var userTotal = 0;
@@ -77,7 +79,6 @@ var dealerTotal = 0;
 var userHand = [];
 var dealerHand = [];
 var gameDeck = new Deck();
-money = 100;
 gameDeck.shuffle();
 
 //Programmer: Cole Rodenberg Date: 5/11/2015
