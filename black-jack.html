@@ -10,11 +10,19 @@
 
 <body>
     <div class="header">
-        <div class="container">
-            <h1>
-            Blackjack
-        </h1>
-        </div>
+        <ul id ="head">
+            <li id = "lspade">
+                <img id = "left-spade" src="spade.png" alt = "Spade">
+            </li>
+            <li id = game-title>
+                <h1>
+                    Blackjack
+                </h1>
+            </li>
+            <li id = "rspade">
+                <img id = "right-spade" src="spade.png" alt = "Spade">
+            </li>
+        </ul>
     </div>
     <div class="subheader">
         <div class="container">
@@ -23,17 +31,12 @@
             </h2>
         </div>
     </div>
-
-    <table cellpadding =0; cellspacing =1; align = center>
-        <tr><td>
-            <div id = "Main">
-                <h3 style = "text-align: center; padding: 10px">Show The Dealer Who Is Boss!</h3>
-                <p id = "game"></p>
-                <script src='script.js'></script>
-            </div>
+    <div id = "Main">
+        <h3 style = "text-align: center; padding: 10px">Show The Dealer Who Is Boss!</h3>
+        <script src='black-jack.js'></script>
+        <p id = "game"></p> 
         
-        </tr></td>
-    </table>
+    </div>
     <div class="button">
         <button type = "button" onclick = "splashScreen()">New Game</button>
     </div>
